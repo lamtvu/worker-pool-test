@@ -4,18 +4,18 @@ A production-ready, thread-safe worker pool implementation in Go that manages co
 
 ## Features
 
-✅ **Thread-Safe**: Uses Go's `sync` primitives and atomic operations for safe concurrent access
-✅ **Configurable Workers**: Adjust the number of concurrent workers
-✅ **Queue Limits**: Set maximum queue size to control memory usage
-✅ **Overflow Strategies**: Three strategies for handling full queues:
-  - **Block**: Wait until queue has space (backpressure)
-  - **Reject**: Immediately reject new tasks when queue is full
-  - **DiscardOldest**: Remove oldest task to make room for new one
-✅ **Error Handling**: Custom callbacks for task errors and worker panics
-✅ **Statistics**: Real-time monitoring of pool performance
-✅ **Graceful Shutdown**: Proper cleanup with configurable timeout
-✅ **Comprehensive Tests**: 12+ test cases covering all scenarios
-✅ **Runnable Examples**: 10 detailed examples demonstrating usage patterns
+**Thread-Safe**: Uses Go's `sync` primitives and atomic operations for safe concurrent access.<br>
+**Configurable Workers**: Adjust the number of concurrent workers.<br>
+**Queue Limits**: Set maximum queue size to control memory usage.<br>
+**Error Handling**: Custom callbacks for task errors and worker panics.<br>
+**Statistics**: Real-time monitoring of pool performance.<br>
+**Graceful Shutdown**: Proper cleanup with configurable timeout.<br>
+**Comprehensive Tests**: 12+ test cases covering all scenarios.<br>
+**Runnable Examples**: 10 detailed examples demonstrating usage patterns.<br>
+**Overflow Strategies**: Three strategies for handling full queues:<br>
+  - **Block**: Wait until queue has space (backpressure).
+  - **Reject**: Immediately reject new tasks when queue is full.
+  - **DiscardOldest**: Remove oldest task to make room for new one.
 
 ## Project Structure
 
